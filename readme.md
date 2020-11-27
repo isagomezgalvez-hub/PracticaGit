@@ -2,12 +2,11 @@
 ## Respuestas Ejercicio 1
 
 
-
 ### ¿Qué comando utilizaste en el paso 11? ¿Por qué? 
 
 El comando que utlicé para deshacer el último commit fue:
 
-```` git reset --hard HEAD~1 ´´´
+``` git reset --hard HEAD~1 ´´´
 
 He utilizado este comando en concreto porque se nos pedía deshacer los cambios
 tanto del Working copy como del Stagin Area.
@@ -16,7 +15,7 @@ tanto del Working copy como del Stagin Area.
  
 ### ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
 
-Utilicé ```` git reflog ´´´ para  ver el identificador  del commit.
+Utilicé ``` git reflog ´´´ para  ver el identificador  del commit.
 Una vez que lo tenía localizado utilicé ``` git reset --hard número identificador ´´´  
 He utilizado el comando reset --hard porque necesitaba que me restaurase también los cambios en el working copy ya que en el paso anterior los había borrado.
 
@@ -39,7 +38,7 @@ rama master se movío a la referencia de la rama style.
 
 ### ¿Qué comando o comandos utilizaste en el paso 25?
 
-Utilicé: ````git log --graph --decorate --pretty=oneline´´´
+Utilicé: ```git log --graph --decorate --pretty=oneline´´´
 
 La idea era  mostrar el grafo y luego lo guardé con  un alias para poderlo usar
  en el futuro de una forma más directa.<br/>
@@ -68,6 +67,7 @@ He utilizado ```Git branch -d title´´´ y me ha pedido que
  para confirmar el borrado teclease ```git branch -D title´´´
 
 ### ¿Qué comando o comandos utilizaste en el paso 30?
+
 He utilizado **Git reflog** para ver los hast de los commit
 **Git reset --hard*** y el numero del indentificador del commit
 
